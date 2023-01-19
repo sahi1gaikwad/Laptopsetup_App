@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Laptopsetup App</title>
+  </head>
+  <body>
+    <h2>Laptop-Setup App</h2>
+
+    <!-- <main> tag specifies the main content of a document -->
+    <main>
+
+      <h3>Laptop-Setup Photo</h3>
+      <p>Click here to view <a href="https://tinyurl.com/yjdnwpkc" target="_blank">laptop setup photos</a></p>
+      
+      <!-- Laptopsetup image -->
+      <a href="https://tinyurl.com/yjdnwpkc" target="_blank">
+        <img src="desk_setup.jpg" alt="Clean Desksetup image">
+      </a>
+
+      <div class="lists">
+        <!-- List of Gadgets -->
+        <p><em>Gadgets</em> in above setup:</p>
+        <ul>
+          <li>LG monitor</li>
+          <li>Mac pro</li>
+          <li>Keyboard</li>
+          <li>And many others...</li>
+        </ul>
+
+        <!-- List of Tips -->
+        <p><strong>Tips</strong> for your clean setup:</p>
+        <ol>
+          <li>Wear gloves when cleaning the desk and items on it</li>
+          <li>Clean your monitor screen with soft cloth</li>
+          <li>Use ear buds to clean the dirt between keyboard keys</li>
+          <li>Watch  <a href="https://tinyurl.com/3fm8mbzs" target="_blank">this</a> video</li>
+        </ol>
+      </div>
+      
+      <img src="./CleaningDesk.jpg" alt="Person cleaning the desk">
+
+      <!-- 
+        Basic Form
+       -->
+      <h2>Fill the Form</h2>
+      <!-- Just the structure of the form and will not do anything to handle this form data -->
+      <form action="#">
+        <label for="laptop">
+          <!-- "indoor-outdoor" is an radio button group that will only select one radio button in this group and will automatically deselect other -->
+          <input id="laptop" type="radio" name="laptop-pc" checked> Laptop
+        </label><br>
+        <label for="pc">
+          <input id="pc" type="radio" name="laptop-pc"> Pc
+        </label><br>
+
+        <label for="clean">
+          <input id="clean" type="checkbox" name="desktype" checked> Clean
+        </label><br>
+        <label for="aesthetic">
+          <input id="aesthetic" type="checkbox" name="desktype"> Aesthetic
+        </label><br>
+        <label for="dirty">
+          <input id="dirty" type="checkbox" name="desktype"> Dirty
+        </label><br>
+        
+        <!-- 
+          "required" attribute is used so that it will be necessary to enter url before we can click the submit button.
+          
+          Note: It is just an attribute and it does not equal to anything!!!
+        -->
+        <input type="text" placeholder="desk-setup url" required><br>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+
+    <footer>
+      <p><small>No copyright - <a href="https://www.freecodecamp.org/">freeCodeCamp.org</a> 2023</small></p>
+    </footer>
+  </body>
+</html>
