@@ -1,3 +1,3 @@
 # Laptopsetup_App
 
-Laptopsetup App created using basic html tags
+Webpage created using basic html tags
